@@ -1,0 +1,6 @@
+1) Extract zip folder of project
+2) If you are using xampp then make new folder in xampp/htdocs and put all files there, or if you are using wamp then make new folder in wamp/www and put all files there.
+3) Open the browser and browse http://localhost/<project_folder_name>
+4) index.html file will be loaded by default
+5) Use navigation to browse other page
+6) All fields of contact form and payment form are required and validate with valid email and number format.
