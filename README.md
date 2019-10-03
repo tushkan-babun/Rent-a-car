@@ -14,33 +14,42 @@ This user will be able to perform all staff tasks listed below and would have le
 
 ### The following technologies were using to develop this application:
 - Application Front End:
+
 HTML,CSS, JavaScript, Bootstrap, jQuery , AJAX
 - Application Back End:
-PHPDatabase:MySQL (PHPMyAdmin)
+
+PHPDatabase: MySQL (PHPMyAdmin)
 - Social Media:
+
 Social Media Plugins
 - Other technologies/addons:
+
 Plotly (for graphing), Google Captcha, Google Maps,SMTP email
 ### 4. Scenario
 Rent_A_Car is a company which provides the service of car rental. Rent_A_Car was established with 3 employees. The development team have decided to develop an online booking application which allows customers to make an online request to rent a car. This web based application based on system requirements specification shown below:
 
 ### 1. Basic functions for all usersare:
 - Landing page(index.php):
-Will be accessible to all users;
+is accessible to all users;
 - Register:
-Customers can register themselves
+customers can register themselves
 - Login:
-Login  to  the  system  for  future  actions;  must  be  linked  with  Google  Captcha, should have session handling; must inform the user that they are currently logged in; all users will use the same login pageand they should be redirected to their respective pages depending on the login credentials
+login  to  the  system  for  future  actions;  linked  with Developing Mode Google  Captcha;
+
+inform the user that they are currently logged in;
+
+all users use the same login page and they are redirected to their respective pages depending on the login credentials
 - View cars:
-All users can view all the available cars  
+all users can view all the available cars  
 - View  and  Update  personal  information:  
-All  users  should  be  able  to  view  their personal information and update it Change Password: Old password have to match
-Forgotten Password: Auto email should send to users with new password
-Logout: page redirect to index or login page, hint: session expired, should have session handeling
-View a Google Map which –
-Has a marker to represent the company’s location
-Upon  clicking on the marker shows the company’s advertisement video (just use some video from YouTubewhich is suitable for the project scenario; but please reference the video in your document)
-Any form used on the website should havelogical validations
+all  users  should  be  able  to  view  their personal information and update it
+- Change Password: old password have to match
+- Forgotten Password: Auto email should send to users with new password
+- Logout: page redirect to index or login page, hint: session expired, should have session handeling
+- View a Google Map which –
+..- Has a marker to represent the company’s location
+..- Upon  clicking on the marker shows the company’s advertisement video (just use some video from YouTubewhich is suitable for the project scenario; but please reference the video in your document)
+..- Any form used on the website should havelogical validations
 
 2.Administrator:
 Upon  successful  login,  the  admin  user  will  be  redirected  to Admin  pagewhich  will display all registered users (Users and administrators) in a table.
