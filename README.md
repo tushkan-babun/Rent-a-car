@@ -1,28 +1,40 @@
-# RETNT_A_CAR-WEB_APPLICATION :blue_car:
+# RENT_A_CAR-WEB_APPLICATION :blue_car:
 
 *This Project was done as an assigment in college with* :a:*+ Grade*
 
 ## Project Description  
 
 A web application for a rent a car business that has three users:
-1. General User / Customer:
+### 1. General User / Customer:
 A user of the application that will only be browsing your application. This user will be a general visitor of the application till he/she logs in and will be able to register, view cars, contact us and browse the application. Once logged in, this user will bea customer and will have the ability to book a car, view profile, change password, and update profile information and view orders along with the basic functions of a general user.
-2. Administrator:
+### 2. Administrator:
 This user will be able to perform all administrative tasks listed below in the ‘Scenario’ section and would be a super user of the system with access to all functionalities.
-3.Staff:This user will be able to perform all staff tasks listed below and would have less access and rights as compared to Administrator for user management.
-You will be using the following technologies to develop this application:
-Application Front End:HTML,CSS, JavaScript, Bootstrap, jQuery , AJAX
-Application Back End:PHPDatabase:MySQL (PHPMyAdmin)
-Social Media:Social Media Plugins
-Other technologies/addons:Plotly (for graphing), Google Captcha, Google Maps,SMTP email
-4.Scenario Rent_A_Car is a company which provides the service of car rental. Rent_A_Car was established in the  beginning of 2012 with 3 employees. The development team have decidedto develop an online booking application which allows customers to make an online request to rent a car. You are required to develop a web based application based on system requirements specification shown below:
+### 3. Staff:
+This user will be able to perform all staff tasks listed below and would have less access and rights as compared to Administrator for user management.
 
-1.Basic functions for all usersare:
-Landing page(index.php):will be accessible to all users;
-Register: Customers can register themselves
-Login: login  to  the  system  for  future  actions;  must  be  linked  with  Google  Captcha, should have session handling; must inform the user that they are currently logged in; all users will use the same login pageand they should be redirected to their respective pages depending on the login credentials
-View cars: all users can view all the available cars  
-View  and  Update  personal  information:  All  users  should  be  able  to  view  their personal information and update it Change Password: Old password have to match
+### The following technologies were using to develop this application:
+- Application Front End:
+HTML,CSS, JavaScript, Bootstrap, jQuery , AJAX
+- Application Back End:
+PHPDatabase:MySQL (PHPMyAdmin)
+- Social Media:
+Social Media Plugins
+- Other technologies/addons:
+Plotly (for graphing), Google Captcha, Google Maps,SMTP email
+### 4. Scenario
+Rent_A_Car is a company which provides the service of car rental. Rent_A_Car was established with 3 employees. The development team have decided to develop an online booking application which allows customers to make an online request to rent a car. This web based application based on system requirements specification shown below:
+
+### 1. Basic functions for all usersare:
+- Landing page(index.php):
+Will be accessible to all users;
+- Register:
+Customers can register themselves
+- Login:
+Login  to  the  system  for  future  actions;  must  be  linked  with  Google  Captcha, should have session handling; must inform the user that they are currently logged in; all users will use the same login pageand they should be redirected to their respective pages depending on the login credentials
+- View cars:
+All users can view all the available cars  
+- View  and  Update  personal  information:  
+All  users  should  be  able  to  view  their personal information and update it Change Password: Old password have to match
 Forgotten Password: Auto email should send to users with new password
 Logout: page redirect to index or login page, hint: session expired, should have session handeling
 View a Google Map which –
