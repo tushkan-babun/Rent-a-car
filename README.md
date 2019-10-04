@@ -1,6 +1,6 @@
 # RENT_A_CAR-WEB_APPLICATION :blue_car:
 
-*This Project was done as an assigment in college with* :a:*+ Grade*
+*This Project was done as an assigment with good logic during study in college and got the * :a: *+ Grade*
 
 ## Project Description  
 
